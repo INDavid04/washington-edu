@@ -1,0 +1,23 @@
+/**********************************************************/
+/*                                                        */
+/*  Washington.edu                                        */
+/*  datestamp: 5 December 2023                            */
+/*  timestamp: 07:20 - 07:45                              */
+/*                                                        */
+/**********************************************************/
+
+$primary: #3e433d; $secondary: #797339; $text: #f7fff7; $background: #0c0523; $cta: #bff523; 
+
+body { background-color: $background; color: $text; font-size: 16px; }
+
+a { color: $cta; }
+a:focus, a:hover { text-decoration: none; }
+
+footer { text-align: center; font-size: 1.4rem; }
+
+.WashingtonBoxModel caption { margin-bottom: 0.5rem; text-shadow: 0 4px 3px $primary; font-family: 'Quicksand', Arial, Helvetica, sans-serif; }
+.WashingtonBoxModel table { border: 5px ridge $text; }
+.WashingtonBoxModel tr:nth-child(2n + 1) { background-color: #181321; }
+.WashingtonBoxModel tr:nth-child(2n) { background-color: #34313C; }
+.WashingtonBoxModel th, .WashingtonBoxModel td { padding: 0.5rem; border: none; border-right: 1px solid $text; }
+.WashingtonBoxModel th { color: $secondary }
